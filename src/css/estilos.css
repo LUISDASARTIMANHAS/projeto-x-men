@@ -3,15 +3,27 @@ body{
     background: #000000;
     color: #ffffff;
 }
-.titulo{
-
+.cabecalho{
+    display: flex;
+    justify-content: center;
 }
-.person-selecionado{
-
+.selecao-de-personagens{
+    display: flex;
+    align-items: center;
+    background: violet;
+    gap: 30px;
 }
-.personagem{
-
+.selecao-de-personagens .lista-de-person{
+display: flex ;
+background: brown;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
 }
-.personagem-GG-img{
-
+.selecao-de-personagens .personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
 }
