@@ -3,25 +3,25 @@
         max-width: 190px;
     }
 
-    .selecao-de-personagens {
+    .selecao-person {
         flex-direction: column-reverse;
         max-width: 430px;
         margin: 0 auto;
     }
 
-    .selecao-de-personagens .personagens {
+    .selecao-person .person {
         margin-top: 37px;
     }
 
-    .selecao-de-personagens .personagens .titulo {
+    .selecao-person .person .titulo {
         font-size: 15px;
     }
 
-    .selecao-de-personagens .lista-personagens {
+    .selecao-person .lista-person {
         gap: 9px;
     }
 
-    .selecao-de-personagens .personagem img {
+    .selecao-person .personagem img {
         width: 80px;
     }
 
