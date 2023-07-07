@@ -11,6 +11,7 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
+    min-height: calc(100vh - 152px);
 }
 .selecao-de-personagens .lista-personagens{
 display: flex ;
@@ -44,4 +45,22 @@ box-shadow: 0px 0px 24px 5px #0271f7;
 .personagem-selecionado{
     text-align: center;
     max-height: 530px;
+}
+
+.personagem-selecionado .personagem-GG-img{
+    width: 430px;
+    height: 430px;
+}
+
+.personagem-selecionado .nome-personagem{
+    border-bottom: 2px solid #47f4ff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.personagem-selecionado .info{
+font-size: 16px;
+text-align: center;
+margin
+width:420px;
 }
