@@ -3,6 +3,10 @@ body{
     background: #000000;
     color: #ffffff;
 }
+body::before{
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg);
+}
 .cabecalho{
     display: flex;
     justify-content: center;
@@ -12,6 +16,7 @@ body{
     align-items: center;
     gap: 30px;
     min-height: calc(100vh - 152px);
+    justify-content: center;
 }
 .selecao-de-personagens .lista-personagens{
 display: flex ;
@@ -60,7 +65,8 @@ box-shadow: 0px 0px 24px 5px #0271f7;
 
 .personagem-selecionado .info{
 font-size: 16px;
+line-height: 22px;
 text-align: center;
-margin
+margin-top: 20px;
 width:420px;
 }
