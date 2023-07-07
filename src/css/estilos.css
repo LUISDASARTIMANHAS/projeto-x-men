@@ -13,7 +13,7 @@ body{
     background: violet;
     gap: 30px;
 }
-.selecao-de-personagens .lista-de-person{
+.selecao-de-personagens .lista-personagens{
 display: flex ;
 background: brown;
 flex-wrap: wrap;
@@ -26,4 +26,11 @@ justify-content: center;
     align-items: center;
     max-width: 585px;
     gap: 25px;
+}
+.selecao-de-personagens .personagens .titulo{
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
 }
