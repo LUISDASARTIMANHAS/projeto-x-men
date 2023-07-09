@@ -7,7 +7,7 @@ const playStationSelecionar = new Audio("./src/audio%20play%20station%20Selecion
 playStationIntro.play()
 bacgroundAudio.play()
 bacgroundAudio.loop = true
-bacgroundAudio.volume = 0.05
+bacgroundAudio.volume = 0.03
 personages.forEach(personagem => {
     personagem.addEventListener("mouseenter", () => {
         aoPassarDoMouse(personagem)
