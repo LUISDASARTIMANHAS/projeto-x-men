@@ -3,20 +3,20 @@ const linkSrc = "./src/imagens/card-"
 const bacgroundAudio = new Audio("./src/X%20Men%20Evolution%201%C2%BA%20Abertura%20(128%20kbps).mp3")
 const playStationIntro = new Audio("./src/play%20station%20intro.mp3")
 const playStationSelecionar = new Audio("./src/audio%20play%20station%20Selecionar.mp3")
-setTimeout(5000,configAudio)
+setTimeout(configAudio,5000)
 
 
 function configAudio() {
     playStationIntro.play()
     bacgroundAudio.play()
     bacgroundAudio.loop = true
-    bacgroundAudio.volume = 0.03
-    personages.forEach(personagem => {
-        personagem.addEventListener("mouseenter", () => {
-            aoPassarDoMouse(personagem)
-        })
-    })
+    bacgroundAudio.volume = 0.01
 }
+personages.forEach(personagem => {
+    personagem.addEventListener("mouseenter", () => {
+        aoPassarDoMouse(personagem)
+    })
+})
 
 function aoPassarDoMouse(personagem) {
     const personagemSelec = document.querySelector(".selecionado")
