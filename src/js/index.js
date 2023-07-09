@@ -10,7 +10,7 @@ function configAudio() {
     playStationIntro.play()
     bacgroundAudio.play()
     bacgroundAudio.loop = true
-    bacgroundAudio.volume = 0.01
+    bacgroundAudio.volume = 0.02
 }
 personages.forEach(personagem => {
     personagem.addEventListener("mouseenter", () => {
