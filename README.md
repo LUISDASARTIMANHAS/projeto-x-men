@@ -1,6 +1,2 @@
-# PINGOBRAS-PROJETO-X-MEN
-Website: https://luisdasartimanhas.github.io/PINGOBRAS-PROJETO-X-MEN/
-
-ou acesse por aqui!
-
-[Clique aqui!](https://luisdasartimanhas.github.io/PINGOBRAS-PROJETO-X-MEN/)
+# PROJETO-X-MEN
+Projeto X men feito no evento do zero ao programador contratado, dev em dobro
